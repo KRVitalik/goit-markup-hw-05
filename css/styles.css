@@ -612,11 +612,13 @@ address .link {
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0;
 }
 
 .flex-case:hover .overlay,
 .flex-case:focus .overlay {
   transform: translate(0, 0);
+  opacity: 1;
 }
 
 /* =============================MODAL============================= */
